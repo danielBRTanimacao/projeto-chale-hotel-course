@@ -12,17 +12,51 @@
         <div> <!-- INICIO PREENCHIMENTO FORMULARIO -->
             <form id="formulario-edit">
                 <div class="form-esquerda">
-                    <label>Nome</label>
+                    <label>Registro geral</label><br>
+                    <label>Nome</label><br>
                     <input type="text"><br>
-                    <label>numero para Contato</label>
+                    <label>numero para Contato</label><br>
                     <input type="text"><br>
-                </div>
-                <div class="form-esquerda">
                     <label>deseja Reserva por quantos dias</label><br>
                     <input type="date"><br>
                 </div>
                 <div class="form-direita">
-                    <label>Formas pagamentos</label>
+                    <div class="destaque-forms">
+                        <label>Formas pagamentos</label>
+                        <div class="img-logos"> <!--fotos-->
+                            <div>
+                                <img src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"/>
+                                <img src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"/>
+                                <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div> <!-- colunas preenchimento -->
+                        <div>
+                            <label>Nome</label>
+                            <input type="text"/>
+                            <div>
+                                <label>data vencimento</label>
+                                <input type="date"/>
+                            </div>
+                   
+                            <div>
+                                <label>CVV / CVC *</label>
+                                <input type="password"/>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label>Número do cartão</label>
+                            <input type="password"/>
+                        </div>
+                    </div>
+                   
+                    <div>
+                        <button>Voltar</button>
+                        <button>PRoximo</button>
+                    </div>
                 </div>
             </form>
         </div> <!--/ FIM PREENCHIMENTO FORMULARIO -->
